@@ -129,3 +129,29 @@ h3{
     color: var(--backcol-section);
 }
 
+/* section footer */
+#footer{
+    background-color: var(--backcol-section);
+    color: whitesmoke;
+}
+
+#footer .container{
+    width: 100%;
+}
+
+.row-foot{
+    width: 100%;
+}
+
+.col-foot h2 ,h3, h4{
+    color: whitesmoke;
+}
+
+#marked{
+    color: goldenrod;
+}
+
+#contact{
+    background-color: rgba(51, 51, 51, 1);
+    color: whitesmoke;
+}
