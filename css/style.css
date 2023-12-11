@@ -118,6 +118,14 @@
     color: rgba(114, 114, 114, 1);
 }
 
-.col-benefit h2, h3{
+.col-benefit h2, 
+h3{
     color: var(--backcol-section);
 }
+
+/* about us section */
+#aboutus h2, 
+h3{
+    color: var(--backcol-section);
+}
+
