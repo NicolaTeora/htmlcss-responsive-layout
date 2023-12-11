@@ -87,7 +87,6 @@
 
 /* section testimonials */
 #testimonials{
-    background-color: white;
     text-align: center;
 }
 
@@ -109,15 +108,26 @@
 #benefits{
     background-color: var(--backcol-section);
     color: whitesmoke;
-    text-align: center;
 }
 
 #benefits h2{
     padding: 2rem;
+    text-align: center;
 }
 
 #benefits .card-w{
     color: var(--backcol-section);
+}
+
+/* section abautas */
+#abautas h2{
+    color: var(--backcol-section);
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+#abautas p{
+    padding-bottom: 2rem;
 }
 
 /*///////////////////////////////////////////////////////*/
@@ -157,6 +167,12 @@
     #benefits .col{
         width: calc(100% / 2);
     }
+
+    /* section abaut as */
+    #abautas .col{
+        width: 50%;
+    }
+
 }
 
 @media screen and (min-width:1024px) {
@@ -187,6 +203,17 @@
     align-items: end;
     }
 
-    /* section testimonials */
-    
+    /* section benefits */
+    #benefits .col{
+        width: calc(100% / 3);
+    }
+
+    /* section abaut as */
+    #abautas .col{
+        width: calc(100% / 3);
+    }
+
+    #abautas .col:first-child{
+        width: calc(100% / 3 * 2);
+    }
 }
