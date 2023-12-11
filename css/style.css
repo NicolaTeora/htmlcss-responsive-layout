@@ -130,6 +130,19 @@
     padding-bottom: 2rem;
 }
 
+/* section started */
+#started{
+    background-color: var(--backcol-section);
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 2rem ;
+}
+
+#started h3,
+h2{
+    padding: 1.2rem 1rem;
+}
+
 /*///////////////////////////////////////////////////////*/
 /* RESPONSIVE SECTION */
 /*///////////////////////////////////////////////////////*/
