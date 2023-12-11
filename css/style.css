@@ -23,9 +23,16 @@
 /* HEADER */
 
 #header{
-    background-color: ;
+    background-color: rgba(0, 132, 253, 1);
+    color: whitesmoke;
 }
 
 #header .container{
     display: flex;
+    justify-content: space-between;
+}
+
+#header .container .logo,
+#header .container .nav{
+    padding: 10px;
 }
