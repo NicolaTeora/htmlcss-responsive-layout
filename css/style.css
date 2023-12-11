@@ -143,6 +143,17 @@ h2{
     padding: 1.2rem 1rem;
 }
 
+/* section footer */
+#footer{
+    padding: 0.8rem 0;
+    background-color: rgb(51, 51, 51);
+    color: whitesmoke;
+}
+
+#footer p{
+    padding: 1rem 0;
+}
+
 /*///////////////////////////////////////////////////////*/
 /* RESPONSIVE SECTION */
 /*///////////////////////////////////////////////////////*/
