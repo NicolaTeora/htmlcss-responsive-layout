@@ -1,0 +1,27 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+/* UTILITY */
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* DEBUG */
+
+.debug{
+    border: 1px dashed red;
+    padding: 5px;
+}
+
+/* HEADER */
+
+#header{
+    
+}
