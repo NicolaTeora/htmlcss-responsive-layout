@@ -16,26 +16,26 @@
 
 .container{
     width: 480px;
-    margin: 0 auto;
-    padding: 0 1rem;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .row{
-    margin: 1rem -1rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
     display: flex;
-    width: 100%;
     flex-wrap: wrap;
 }
 
-[class*="col"]{
+.col{
     padding: 1rem;
-    margin: 0.65rem 0;
     width: 100%;
-    /* debug */
-    background-color: var(--backcolor-card);
+}
+
+.card{
+    padding: 1rem;
 }
 
 /* DEBUG */
@@ -52,6 +52,7 @@
 }
 
 #header .container{
+    display: flex;
     justify-content: space-between;
 }
 
@@ -62,96 +63,92 @@
 
 /* MAIN */
 /* section one */
-#frist_section .container{
-    display: flex;
-    justify-content: center;
+#frist-section .container{
     text-align: center;
 }
 
-.card-left, .card-right{
-    padding: 5px;
+.card-left, 
+.card-right, 
+.card{
+    background-color: var(--backcolor-card);
+    padding: 0.65rem;
 }
 
 /* section two */
-#two_section{
+#strategic-plan{
     background-color: var(--backcol-section);
-    color: whitesmoke;
-}
-
-.col-in{
-    background-color: inherit;
-}
-
-.col-w{
-    background-color: whitesmoke;
-    color: black;
-}
-
-/* section testimonials */
-#testimonials .container{
-    display: flex;
-    justify-content: center;
     text-align: center;
 }
 
-#testimonials h2{
-    color: var(--backcol-section);
-}
-
-.col-teste{
-    background-color: var(--backcol-section);
-    color: whitesmoke;
-}
-
-.col-teste .card-left{
+.card-w{
+    padding: 1rem;
     background-color: whitesmoke;
 }
 
-/* benfits section */
-#benefits{
-    background-color: var(--backcol-section);
-    color: whitesmoke;
+/* section testimonials */
+#testimonials{
+    background-color: white;
+    text-align: center;
 }
 
-.col-benefit{
+.card-intro{
+    padding: 1rem;
     background-color: whitesmoke;
-    color: rgba(114, 114, 114, 1);
 }
 
-.col-benefit h2, 
-h3{
-    color: var(--backcol-section);
-}
-
-/* about us section */
-#aboutus h2, 
-h3{
-    color: var(--backcol-section);
-}
-
-/* section footer */
-#footer{
+.card-test{
+    padding: 1rem;
     background-color: var(--backcol-section);
-    color: whitesmoke;
+}
+    
+
+/*///////////////////////////////////////////////////////*/
+/* RESPONSIVE SECTION */
+/*///////////////////////////////////////////////////////*/
+@media  screen and (min-width:768px) {
+    /* frist section */
+    #frist-section .col{
+        padding: 1rem;
+        width: calc(100% / 3);
+    }
+
+    #frist-section .col:first-child{
+        padding: 1rem;
+        width: calc(100% / 3 * 2);
+    }
+
+    /* section testimonials */
+
 }
 
-#footer .container{
-    width: 100%;
-}
+@media screen and (min-width:1024px) {
+    .container{
+        width: 1024px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
 
-.row-foot{
-    width: 100%;
-}
+    /* frist section */
+    #frist-section .col{
+        padding: 1rem;
+        width: calc(100% / 3);
+    }
 
-.col-foot h2 ,h3, h4{
-    color: whitesmoke;
-}
+    #frist-section .col:first-child{
+        padding: 1rem;
+        width: calc(100% / 3 * 2);
+    }
 
-#marked{
-    color: goldenrod;
-}
+    /* section two */
+    #strategic-plan .col{
+    width: calc(50%);
+    }
+    #stategic-plan .row{
+    align-items: end;
+    }
 
-#contact{
-    background-color: rgba(51, 51, 51, 1);
-    color: whitesmoke;
+    /* section testimonials */
+    
 }
