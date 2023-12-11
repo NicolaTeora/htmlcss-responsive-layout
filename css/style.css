@@ -1,3 +1,10 @@
+/* ROOTS */
+:root{
+    --backcolor-card: rgba(181, 221, 255, 1);
+    --color-nav: rgba(0, 132, 253, 1);
+    --backcol-section:  rgba(151, 146, 228, 1);
+}
+
 /* RESET */
 *{
     margin: 0;
@@ -28,11 +35,10 @@
     margin: 0.65rem 0;
     width: 100%;
     /* debug */
-    background-color: rgba(181, 221, 255, 1);
+    background-color: var(--backcolor-card);
 }
 
 /* DEBUG */
-
 .debug{
     border: 1px dashed red;
     padding: 5px;
@@ -41,7 +47,7 @@
 /* HEADER */
 
 #header{
-    background-color: rgba(0, 132, 253, 1);
+    background-color: var(--color-nav);
     color: whitesmoke;
 }
 
@@ -68,8 +74,12 @@
 
 /* section two */
 #two_section{
-    background-color: rgba(151, 146, 228, 1);
+    background-color: var(--backcol-section);
     color: whitesmoke;
+}
+
+.col-in{
+    background-color: inherit;
 }
 
 .col-w{
