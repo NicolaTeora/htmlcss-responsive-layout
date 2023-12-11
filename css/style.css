@@ -86,3 +86,22 @@
     background-color: whitesmoke;
     color: black;
 }
+
+/* section testimonials */
+#testimonials .container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#testimonials h2{
+    color: var(--backcol-section);
+}
+
+.col-teste{
+    background-color: var(--backcol-section);
+}
+
+.col-teste .card-left{
+    background-color: whitesmoke;
+}
