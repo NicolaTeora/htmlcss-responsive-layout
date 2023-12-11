@@ -8,7 +8,7 @@
 /* UTILITY */
 
 .container{
-    width: 1140px;
+    width: 480px;
     margin: 0 auto;
     padding: 0 1rem;
 }
@@ -23,5 +23,9 @@
 /* HEADER */
 
 #header{
-    
+    background-color: ;
+}
+
+#header .container{
+    display: flex;
 }
