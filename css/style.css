@@ -123,7 +123,7 @@ h2{
 
 .card-w{
     padding: 1rem;
-    background-color: whitesmoke;
+    background-color: white;
 }
 
 .card-w h2{
@@ -195,6 +195,7 @@ h2{
 
 #benefits .card-w p{
     margin: 1.5rem 0;
+    font-style: normal;
 }
 
 #benefits .card-w button{
@@ -206,15 +207,50 @@ h2{
     background-color: var(--backcol-section);
 }
 
-/* section abautas */
-#abautas h2{
+/* section abautus */
+#abautus h2{
     color: var(--backcol-section);
     padding-top: 3rem;
     padding-bottom: 2rem;
+    padding-left: 0;
 }
 
-#abautas p{
+#abautus p{
     padding-bottom: 2rem;
+}
+
+#abautus img{
+    width: 100%;
+    border-radius: 50%;
+    padding: 2rem;
+}
+
+.card-abaut{
+    margin-right: 100px;
+    position: relative;
+}
+
+.card-abaut > i{
+    color: var(--backcol-section);
+    font-size: 100px;
+    position: absolute;
+    right: 0;
+    top: 60px;
+}
+
+#descript-about{
+    color: var(--backcol-section);
+    font-size: x-large;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.linkedin{
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    color: whitesmoke;
+    background-color: var(--backcol-section);
 }
 
 /* section started */
@@ -286,8 +322,22 @@ h2{
     }
 
     /* section abaut as */
-    #abautas .col{
+    #abautus .col{
         width: 50%;
+    }
+
+    #abautus img {
+        width: 100%;
+        border-radius: 50%;
+        padding: 0;
+    }
+
+    .card-abaut > i {
+        
+        font-size: 50px;
+        position: absolute;
+        right: 0;
+        top: 0;
     }
 
 }
@@ -333,12 +383,4 @@ h2{
         width: calc(100% / 3);
     }
 
-    /* section abaut as */
-    #abautas .col{
-        width: calc(100% / 3);
-    }
-
-    #abautas .col:first-child{
-        width: calc(100% / 3 * 2);
-    }
 }
