@@ -77,13 +77,12 @@ div{
     text-align: center;
 }
 
-#frist-section p{
-    padding: 0 2rem;
+#frist-section .card-left h3,
+i{
+    color: var(--color-nav);
 }
 
-#frist-section .card-left h3,
-h2,
-i{
+.tit-demo{
     color: var(--color-nav);
 }
 
@@ -112,9 +111,28 @@ i{
     text-align: center;
 }
 
+#strategic-plan .card,
+h2{
+    background-color: inherit;
+    color: whitesmoke;
+}
+
+#strategic-plan img{
+    width: 100%;
+}
+
 .card-w{
     padding: 1rem;
     background-color: whitesmoke;
+}
+
+.card-w h2{
+    color: rgb(43, 42, 42);
+}
+
+.card-w p{
+    font-style: oblique;
+    color: rgb(43, 42, 42);
 }
 
 /* section testimonials */
@@ -268,7 +286,7 @@ h2{
     width: calc(50%);
     }
     #stategic-plan .row{
-    align-items: end;
+    align-items: flex-end;
     }
 
     /* section benefits */
