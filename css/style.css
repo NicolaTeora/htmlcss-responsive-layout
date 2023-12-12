@@ -177,6 +177,13 @@ h2{
     color: whitesmoke;
 }
 
+#benefits span{
+    display: block;
+    font-size: xxx-large;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
 #benefits h2{
     padding: 2rem;
     text-align: center;
@@ -184,6 +191,19 @@ h2{
 
 #benefits .card-w{
     color: var(--backcol-section);
+}
+
+#benefits .card-w p{
+    margin: 1.5rem 0;
+}
+
+#benefits .card-w button{
+    width: 30%;
+    padding: 15px;
+    border: none;
+    border-radius: 25px;
+    color: whitesmoke;
+    background-color: var(--backcol-section);
 }
 
 /* section abautas */
