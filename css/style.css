@@ -142,7 +142,11 @@ h2{
 
 .card-intro{
     padding: 1rem;
-    background-color: whitesmoke;
+    background-color: white;
+}
+
+.card-intro > h2{
+    color: var(--backcol-section);
 }
 
 .card-test{
@@ -150,8 +154,21 @@ h2{
     background-color: var(--backcol-section);
 }
 
-.card-img{
-    background-color: white;
+.card-img img{
+    width: 100%;
+    border-radius: 50%;
+    padding: 2rem;
+}
+
+.card-comm, i{
+    color: whitesmoke;
+}
+
+.card-comm span{
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+    margin: 10px auto;
 }
 
 /* section benefits */
@@ -239,6 +256,8 @@ h2{
     }
     .card-comm{
         width: 70%;
+        display: flex;
+        align-items: center;
     }
 
     /* section benefits */
